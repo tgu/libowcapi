@@ -1,0 +1,5 @@
+module COwCapi [system] {
+  umbrella header "/usr/local/opt/owfs/include/owcapi.h"
+  link "owcapi"
+  export *
+}

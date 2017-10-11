@@ -1,0 +1,9 @@
+prefix=/usr/local/opt/owfs
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+Name: OwCapi
+Version: 1
+Description: OwCapi client library
+Cflags: -I${includedir}
+Libs: -L${libdir} -lowcapi
